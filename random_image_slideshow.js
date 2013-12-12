@@ -7,7 +7,7 @@ function myTimer(){
 	var link=["link_1", //enter the links for when you click an image
 	"link_2",
 	"link_3"];
-
+	var i = Math.floor(Math.random()*img_number); 
 	var txt="<a id=\"id1\"href=\""+link[i]+"\"><img src=\""+img[i]+"\"</a>";
 	document.getElementById("document_id").innerHTML=txt; //Replace document_id with an id
 }
